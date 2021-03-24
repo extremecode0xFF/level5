@@ -53,7 +53,7 @@ function timerManipulation(currentTime: string, operation: string) {
     default:
       break;
   }
-  if (result < 60 || result > 0) {
+  if (result < 60 && result > 0) {
     time.innerHTML = result.toString();
   }
 }
