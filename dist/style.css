@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body{
+    background-color: black;
+}
+
+.timer__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Black Ops One', cursive;
+    border-color: darkorange;
+    color: white;
+    padding: 15px 0;
+}
+
+.timer__inner button{
+    font-family: 'Black Ops One', cursive;
+    color: white;
+    outline: 0;
+    background-color: black;
+    border: 2px solid darkorange;
+}
+
+.timer__inner button:hover{
+    border-color: limegreen;
+}
+
+.timer-title{
+    margin-bottom: 50px;
+}
+
+.timer-desc{
+    margin-bottom: 5px;
+}
+
+.timer-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time{
+    padding: 0 25px;
+}
+
+.button_theme{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.button-start{
+    border-radius: 17px;
+}
